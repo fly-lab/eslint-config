@@ -3,14 +3,7 @@
     "version": "0.0.0",
     "author": "DHN Chandan",
     "license": "MIT",
-    "files": [
-        "base.json",
-        "nextjs.json",
-        "react.json",
-        "react-native.json",
-        "preact.json",
-        "node.json"
-    ],
+    "main": "index.js",
     "publishConfig": {
         "registry": "https://registry.npmjs.org",
         "access": "public"
@@ -18,6 +11,10 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/fly-lab/eslint-config.git"
+    },
+    "bugs": {
+        "email": "fly.dev.org@gmail.com",
+        "url": "https://github.com/fly-lab/eslint-config/issues"
     },
     "homepage": "https://github.com/fly-lab/eslint-config.git",
     "keywords": [

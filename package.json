@@ -1,9 +1,13 @@
 {
     "name": "@fly-lab/eslint-config",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "author": "DHN Chandan",
     "license": "MIT",
-    "main": "index.js",
+    "files": [
+        "base/*",
+        "node/*",
+        "react/*"
+    ],
     "publishConfig": {
         "registry": "https://registry.npmjs.org",
         "access": "public"

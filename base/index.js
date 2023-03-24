@@ -39,7 +39,7 @@ module.exports = {
       "@typescript-eslint/parser": [".ts", ".tsx"],
     },
   },
-  plugins: ["@typescript-eslint", "prettier", "import"],
+  plugins: ["prettier", "import"],
   rules: {
     "@typescript-eslint/naming-convention": [
       "error",
@@ -62,6 +62,20 @@ module.exports = {
     "jest/expect-expect": "off",
 
     "@rushstack/typedef-var": "off",
+
+    "@typescript-eslint/typedef": [
+      "warn",
+      {
+        arrowParameter: true,
+        variableDeclaration: true,
+        arrayDestructuring: true,
+        memberVariableDeclaration: true,
+        objectDestructuring: true,
+        parameter: true,
+        propertyDeclaration: true,
+        variableDeclarationIgnoreFunction: true,
+      },
+    ],
   },
   ignorePatterns: [
     "**/*.json",

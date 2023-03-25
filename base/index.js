@@ -41,6 +41,12 @@ module.exports = {
   },
   plugins: ["prettier", "import"],
   rules: {
+    "prettier/prettier": [
+      "off",
+      {
+        tabWidth: 4,
+      },
+    ],
     "@typescript-eslint/naming-convention": [
       "error",
       {

@@ -50,8 +50,8 @@
     },
     "peerDependencies": {
         "eslint": ">=8",
-        "typescript": ">=4.7.0",
-        "prettier": ">=4.0.0"
+        "prettier": ">=4.0.0",
+        "typescript": ">=4.7.0"
     },
     "peerDependenciesMeta": {
         "eslint": {
@@ -60,6 +60,7 @@
     },
     "devDependencies": {
         "eslint": "^8.36.0",
+        "prettier": "^2.8.7",
         "typescript": "^5.0.2"
     }
 }

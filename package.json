@@ -6,7 +6,8 @@
     "files": [
         "base/*",
         "node/*",
-        "react/*"
+        "react/*",
+        "prettier-config.json"
     ],
     "publishConfig": {
         "registry": "https://registry.npmjs.org",
